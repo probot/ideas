@@ -58,3 +58,7 @@ Each time someone comments on something in a GitHub repository, the github app c
 
 Expected outcome: GitHub Application like https://github.com/apps/stale that can be installed on GitHub repositories
 Possible mentors: Brandon, Gregor, Jason
+
+---
+
+Google Summer of Code reference: (Defining a Project (Ideas List))[https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list]
