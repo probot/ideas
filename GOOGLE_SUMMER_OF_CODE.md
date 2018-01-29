@@ -61,4 +61,4 @@ Possible mentors: Brandon, Gregor, Jason
 
 ---
 
-Google Summer of Code reference: (Defining a Project (Ideas List))[https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list]
+Google Summer of Code reference: [Defining a Project (Ideas List)](https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list)
