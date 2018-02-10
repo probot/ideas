@@ -6,6 +6,7 @@
 4. [Set expectations for response time](project-4)
 5. [Twitter Integration](project-5)
 6. [Background check](project-6)
+6. [Enforce documentation updates in pull requests](project-7)
 
 <a name="project-1"></a>
 ## 1. Automatically merge pull requests that pass all checks
@@ -58,6 +59,18 @@ Each time someone comments on something in a GitHub repository, the github app c
 
 Expected outcome: GitHub Application like https://github.com/apps/stale that can be installed on GitHub repositories
 Possible mentors: Brandon, Gregor, Jason
+
+<a name="project-7"></a>
+## 7. Enforce documentation updates in pull requests
+
+This bot can be installed to make sure that documentation is updated whenever code changes. In order for the bot to know that there is a new feature or breaking change it would parse all commit messages using [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog). The [preset option](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog#preset) would allow to use one of the officially supported commit message conventions to be used.
+
+If `conventional-changelog` detects a new feature or a breaking change it will check if the repository's README file was updated (configurable, too). If documentation was not updated it sets status to error, otherwise to success
+
+More ideas
+
+- look for (configurable) labels like `feature` or `breaking change` for pull requests that do not follow the commit message conventions.
+- if a pull request gets squash & merged then bot could do the check after the merge and if documentation was not updated it could create an issue
 
 ---
 
