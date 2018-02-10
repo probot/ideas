@@ -72,6 +72,10 @@ More ideas
 - look for (configurable) labels like `feature` or `breaking change` for pull requests that do not follow the commit message conventions.
 - if a pull request gets squash & merged then bot could do the check after the merge and if documentation was not updated it could create an issue
 
+https://github.com/probot/ideas/issues/30
+- Expected outcome: GitHub Application like https://github.com/apps/stale that can be installed on GitHub repositories
+- Possible mentors: Brandon, Gregor, Jason
+
 ---
 
 Google Summer of Code reference: [Defining a Project (Ideas List)](https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list)
