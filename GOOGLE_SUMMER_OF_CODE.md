@@ -1,12 +1,12 @@
 # Project ideas for Google Summer of Code 
 
-1. [Automatically merge pull requests that pass all checks](project-1)
-2. [Automatically move inactive contributors to an alumni team](project-2)
-3. [Weekly digest](project-3)
-4. [Set expectations for response time](project-4)
-5. [Twitter Integration](project-5)
-6. [Background check](project-6)
-6. [Enforce documentation updates in pull requests](project-7)
+1. [Automatically merge pull requests that pass all checks](#project-1)
+2. [Automatically move inactive contributors to an alumni team](#project-2)
+3. [Weekly digest](#project-3)
+4. [Set expectations for response time](#project-4)
+5. [Twitter Integration](#project-5)
+6. [Background check](#project-6)
+6. [Enforce documentation updates in pull requests](#project-7)
 
 <a name="project-1"></a>
 ## 1. Automatically merge pull requests that pass all checks
