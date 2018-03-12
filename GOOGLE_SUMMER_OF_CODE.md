@@ -47,7 +47,7 @@ https://github.com/probot/ideas/issues/6
 <a name="project-5"></a>
 ## 5. Twitter Integration
 
-Use GitHub’s Pull Requests & Reviews to collaborate on a shared twitter account. Tweets are simply files in a repository. The GItHub app would enforce the character limit by setting a pull request status. Tweets could be allowed to be scheduled or be queued based on a configured tweet schedule
+Use GitHub’s Pull Requests & Reviews to collaborate on a shared twitter account. Tweets are simply files in a repository. The GitHub app would enforce the character limit by setting a pull request status. Tweets could be allowed to be scheduled or be queued based on a configured tweet schedule
 
 - Expected outcome: GitHub Application like https://github.com/apps/stale that can be installed on GitHub repositories
 - Possible mentors: Brandon, Gregor, Jason
